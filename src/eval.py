@@ -32,14 +32,4 @@ def main():
     return w2v, ft
 
 w2v, ft = main()
-print(w2v, ft)
-
-
-
-
-
-
-
-
-print(0, 0)
-    
+print(w2v, ft)    
