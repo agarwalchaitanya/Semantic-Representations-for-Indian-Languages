@@ -23,7 +23,7 @@ $ python3 ft.py ../corpus/preprocess.hi ft.model
 $ python3 w2v.py ../corpus/preprocess.hi w2v.model
 ```
 
-The `config` for `bert` hasn't been provided due to size constraints. However, you can train a 81M parameter `DistilBERT` like  byte-level BPE tokenizer on the preprocessed dataset using:
+The `config` for `bert` hasn't been provided due to size constraints. However, you can train a 81M parameter `DistilBERT` like  `byte-level BPE tokenizer` on the preprocessed dataset using:
 ```bash
 $ cd src/we
 $ python3 bert.py
