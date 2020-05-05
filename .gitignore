@@ -1,0 +1,10 @@
+venv
+__pycache__
+tmp/
+monolingual/
+.idea/
+ft.model*
+w2v.model
+bert.jsonl
+elmo.model
+config/
